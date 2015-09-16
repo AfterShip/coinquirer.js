@@ -1,12 +1,12 @@
 {
   "name": "coinquirer",
-  "version": "0.0.3",
-  "description": "A collection of common interactive command line user interfaces.",
-  "main": "coinquirer.js",
+  "version": "0.0.4",
+  "description": "A co.js compatible wrapped version of inquirer.js",
+  "main": "lib/coinquirer.js",
   "scripts": {
     "test": "grunt --verbose"
   },
-  "repository": "SBoudrias/Inquirer.js",
+  "repository": "dg3feiko/coinquirer.js",
   "keywords": [
     "command",
     "prompt",
@@ -15,7 +15,7 @@
     "tty",
     "menu"
   ],
-  "author": "Simon Boudrias <admin@simonboudrias.com>",
+  "author": "Feiko Lai<dg3feiko@gmail.com>",
   "license": "MIT",
   "files": [
     "lib"
