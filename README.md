@@ -1,3 +1,32 @@
+Coinquirer Fork
+============
+
+Wrap `prompt` function in a Promise way so that you can
+
+```js
+
+var coinquirer = require("./coinquirer");
+
+require("co")(function *(){
+  try{
+    var ci = new coinquirer();
+    var res = yield ci.prompt({
+      type:"list",
+      name:"name",
+      message:"whats ur name",
+      choices:["foo","bar"]
+    });
+
+    console.log("your answer:",res.name);
+  }catch(e){
+    console.error(e);
+  }
+});
+
+```
+
+
+
 Inquirer.js
 ===========
 
