@@ -5,7 +5,7 @@ Wrap `prompt` function in a Promise way so that you can
 
 ```js
 
-var coinquirer = require("./coinquirer");
+var coinquirer = require("coinquirer");
 
 
 require("co")(function *(){
